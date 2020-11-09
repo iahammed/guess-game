@@ -54,6 +54,9 @@
                 echo "<h1>" . $_COOKIE['guess'] . '</h1>';
 
             }
+
+            echo '<h3>No of try : ' . $_COOKIE['try'] .'</h3>';
+
         ?>
             <form method = "get" action ="process.php">
                 <div>
